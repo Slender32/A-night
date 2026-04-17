@@ -1,4 +1,4 @@
-package common
+package legacy
 
 /**
  * 删除已排序数组中的重复元素

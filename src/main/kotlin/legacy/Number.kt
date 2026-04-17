@@ -1,4 +1,4 @@
-package common
+package legacy
 
 import kotlin.math.abs
 import kotlin.math.sqrt
