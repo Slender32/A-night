@@ -1,4 +1,4 @@
-package legacy
+package theory.legacy
 
 import kotlin.math.abs
 import kotlin.math.sqrt

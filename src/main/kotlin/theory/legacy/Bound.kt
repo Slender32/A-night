@@ -1,4 +1,4 @@
-package legacy
+package theory.legacy
 
 import java.util.ArrayList
 import kotlin.math.max

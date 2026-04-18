@@ -1,7 +1,7 @@
-package tree
+package theory.tree
 
-import helper.Data
-import helper.TreeNode
+import theory.helper.Data
+import theory.helper.TreeNode
 
 /**
  * 二叉树的层序遍历（广度优先搜索）
@@ -49,7 +49,7 @@ fun TreeNode.travelByBFS(action: TreeNode.(Int) -> Unit){
  * @param data 父节点信息
  * @param action 接收父节点信息,处理每个节点
  */
-fun TreeNode.travelByDFS(data: Data, action: TreeNode.(Any?) -> Unit){
+fun TreeNode.travelByDFS(data: Data, action: TreeNode.(Data) -> Unit){
     action(data)
     //更新数据并向下传递
     data.update(value)

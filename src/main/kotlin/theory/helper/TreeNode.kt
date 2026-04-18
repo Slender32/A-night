@@ -1,4 +1,4 @@
-package helper
+package theory.helper
 
 /**
  * 照搬自力扣的TreeNode
