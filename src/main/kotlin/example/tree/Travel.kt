@@ -27,6 +27,7 @@ class Solution1315 {
      * @param grandParent 祖父节点值
      * @param parent 父节点值
      */
+    //通常来讲,传递型是不太需要方法名和返回值的,只需确定参数即可
     private fun TreeNode.travel(grandParent: Int, parent: Int){
         if(grandParent != 0 && grandParent % 2 == 0){
             result += value
@@ -61,6 +62,7 @@ class Solution538 {
      * @param sum 需要父节点的值+父节点的右子树的和来更新自己和子树
      * @return `sum` - 自己加子树的和
      */
+    //递归型方法需要确定方法名,参数,返回值
     private fun TreeNode?.sumAndUpdate(sum: Int): Int {
         //如果不存在,不用更新子树,隐式更新自己,返回 自己的值(0 + sum) + 子树的和(0)
         if(this == null) return sum
